@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	border: 1px solid white;
+	margin: 10px;
+	width: 100%
+	
+}
+
+body {
+	background-color:black;	
+	width: 100%
+}
+
+h1 {
+	text-align: center;	
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	color: white;
+	text-align: center;	
+}
+
+h3 {
+	color: white;
+	text-align: center;	
+}
+
+h4 {
+	color: green;
+	text-align: center;	
+	font-size: 25px;
+}
+
+nav {
+	text-align: center;	
+	padding: 0 50px 0 0;
+}
+
+nav ul li,a {
+	list-style: none;
+	display: inline;
+	margin: 0 0 0 0;
+	padding: 5px;
+	color: white;
+}
+
+ol {
+	color: green;
+	width: 30%;	
+	padding: 0 0 0 500px;
+}
+
+hr {
+	width: 70%;	
+}
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+/* Left Column */
+
+#leftcol {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 0 0 30px;
+	margin: 15px 10px 0 0;
+}
+
+/* Right Column */
+
+aside {
+	display: block;
+	float: right;
+	width: 30%;
+	padding: 0 15px 0 15px;
+	margin: 0 30px 0 0;
+}
+
+/* Center Column */
+
+#centercol {
+	overflow: hidden;
+	width: 30%;
+	padding: 10px;
+	margin: 0 0 0 30px
+}
+
+#websites {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	padding: 0 0 0 30px;
+	margin: 15px 10px 0 0;	
+}
+
+#history {
+	display: block;
+	float: right;
+	width: 40%;
+	padding: 0 15px 0 15px;
+	margin: 0 30px 0 0;
+}
+
+p {
+	color: white;	
+}
+
+#pdf {
+	text-align: center;	
+}
+
+
+a[href] {
+	color: yellow;	
+}
+
+a[title="videos"] {
+	color: green;
+}
+
+a[title~="photos"] {
+	color: #F00;
+}
+
+a[lang|="en"] {
+	color: #CFF;
+}
+
+a[href^="http://"] {
+	color: #6F0;
+	font-size:24px;
+	text-transform: uppercase;	
+}
+
+a[href$=".pdf"] {
+	color: #F3C;
+	text-transform: uppercase;
+	font-size: 20px;	
+}
+
+div[id*="center"] {
+	background-color: blue;	
+	padding: 0 0 0 30px;
+}
+
+div>p {
+	color: #F00;	
+}
+
+h3 + p {
+	background-color: #96C;
+	padding: 10px;
+}
+
+h4 ~ p {
+	background-color:#FFF;
+	padding: 10px;	
+}
+
+a:first-child {
+	text-transform: uppercase;	
+}
+
+p:last-child {
+	font-size: 17px;	
+}
+
+a:only-child {
+	background-color: grey;	
+}
+
+h4:only-of-type {
+	text-transform: uppercase;	
+}
+
+ol :first-of-type {
+	background-color: yellow;
+	
+	
+}
+
+ol :last-of-type {
+	background-color: pink;
+	
+}
+
+:root {
+	background-color: black;
+	
+}
+
+div:empty {
+	display: none;
+		
+}
+
+p:nth-child(n) {
+	font-weight: bold;
+	
+}
+		
+p:nth-last-child(n) {
+	letter-spacing: 2px;
+	
+}
+
+p:nth-of-type(2) {
+	background-color: green;
+	
+}
+
+p:nth-last-of-type(2) {
+	background-color: #9C3;
+	
+}
