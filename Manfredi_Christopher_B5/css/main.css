@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+    max-width: 100%;
+	overflow-x: hidden;
+	background-color: black;
+}
+
+h4 {
+	color: #93C;	
+}
+
+p {
+	color: white;	
+}
+
+a.button {
+	background-color: purple;
+	color: white;
+}
+
+a.button:hover {
+	background-color: grey;	
+}
+
+.button {
+	color: black;	
+}
+ul li {
+	text-align: center;	
+}
+
+h5 {
+	color: purple;
+	float: left;
+	padding-right: 10%;	
+}
+
+table, h5 {
+	float: right;
+	clear: right;
+	margin-right: 250px;
+	width: 20%;	
+}
+
+form {
+	width: 45%;	
+	float: left;
+	clear: left;
+	margin-bottom: 100px;
+}
+
+label {
+	color: purple;	
+}
+
+.submit {
+	background-color: purple;	
+}
+
+.submit:hover {
+	background-color: grey;	
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+		
+			
+		body {
+			overflow-y: scroll;
+			 overflow-x: hidden;	
+		}
+		
+		ul {
+			width: 100%;
+			padding: 0 20% 30% 0;	
+		}
+		
+		img {
+			width: 100%;	
+		}
+		
+		table, h5 {
+			width: 60%;	
+		}	
+		
+		h5 {
+			text-align: center;	
+		}
+		
+		form {
+			width: 60%;	
+		}
+		
+		
+		
+
+	
+		
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		
+		body {
+			overflow-y: scroll;	
+			 overflow-x: hidden;
+		}
+		
+		ul {
+			width: 75%;
+			padding: 0 25% 0 0;	
+		}
+		
+		img {
+			width: 100%;	
+		}
+		
+		.table {
+			width: 80%;	
+			float: right;
+			padding: 0 0 0 80px;
+		}
+		
+		h5 {
+			text-align: center;	
+		}
+		
+		form {
+			width: 90%;	
+		}
+		
+		
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (min-width: 480px) and (max-width: 800px) {
+		
+		body {
+			overflow-y: scroll;	
+			 overflow-x: hidden;
+		}
+		
+		ul {
+			width: 75%;
+			padding: 0 20% 0 0;
+		}
+		
+		img {
+			width: 100%;	
+		}
+		
+		h5 {
+			text-align: center;	
+		}
+		
+		table {
+			width: 10%;
+		}
+		
+		form {
+			width: 100%;	
+			
+		}
+		
+		
+		
+	
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+		
+		body {
+			overflow-y: scroll;	
+			 overflow-x: hidden;
+		}
+		
+		ul {
+			width: 75%;
+			padding: 0 15% 0 0;
+			color: green;	
+		}
+		
+		img {
+			width: 100%;	
+		}
+		
+		h5 {
+			text-align: center;	
+		}
+		
+		table {
+			width: 10%;
+			
+		}
+		
+		form {
+			width: 100%;	
+		}
+		
+	
+	
+	}
