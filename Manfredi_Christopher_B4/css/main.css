@@ -1,25 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Body */
 body {
 	Background-Color: #0E1B46;	
 }
 
+/* h1 */
 h1 {
 	color: White;
 	text-align: center;	
+	font-family: 'Sonsie One', cursive;
+
 }
 
+/* nav  */
 .nav > ul > li {
   display: inline;
   list-style:none;
-  color: #E42715;
+  color: #FFF;
+  background-color: grey;
+  padding: 5px;
+  border: 2px solid white;
 }
 
+/* a */
 a {
-	color: #AEB3B1;	
+	color: #FFF;	
+	padding: 0 0 0 0;
 }
 
+/* Table */
 .table1,th ,td {
    margin: auto;
    margin-top: 30px;
@@ -29,7 +40,8 @@ a {
    background-color: White;
    border: 2px solid black;
   }
-  
+ 
+ /* Table */ 
   .table1 {
 		border: 6px solid black;  
   }
@@ -49,7 +61,7 @@ a {
 aside {
 	display: block;
 	float: right;
-	width: 15%;
+	width: 20%;
 	padding: 0 15px 0 15px;
 	margin: 20px 30px 0 0;
 	border-radius: 10px;
@@ -64,32 +76,40 @@ aside {
 	margin: 0 0 0 30px;
 }
 
+/* h2 */
 h2 {
 	text-align: center;	
 	color: white;
 }
 
+/* h3 */
 h3 {
 	text-align: center;	
 	color: #000;
 }
 
+/* p */
 p {
 	color: #AEB3B1;
-	font-size: 15px;
+	font-size: 0.938em;
+;
 }
 
+/* img */
 img#logo {
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* image yankee stadium */
 .images #yankeestadium {
 	padding: 0 0 0 300px;
     width:70%;
 	height: auto;	
 }
+
+/* image yankee */
 .images #yankees {
 	padding: 40px 0 0 50px;
     width:30%;
@@ -97,6 +117,7 @@ img#logo {
 		
 }
 
+/* images yankees log */
 .images #yankeeslogo {
 	padding: 40px 0 0 100px;
     width:30%;
@@ -104,20 +125,24 @@ img#logo {
 		
 }
 
+/* Forms */
 .forms {
 	margin: 0 auto; 
 	width:250px;
 }
 
+/* Forms Input */
 .forms input {
 	width: 100%;	
 }
 
+/* Label */
 label {
 	color: white;	
 	text-align: center;
 }
 
+/* Submit Button */
 .submit {
 	width: 70%;
 	margin: 0 0 0 15%;	
@@ -160,7 +185,7 @@ label {
 		aside, p {
 			width: 30%;
 			color: White;	
-			font-size: 15px;
+			font-size: 0.750em;
 		}
 		
 		aside p {
@@ -214,7 +239,7 @@ label {
 		#leftcol, p {
 			width: 30%;	
 			color: White;
-			font-size: 15px;
+			font-size: 0.938em;
 			text-align: center;
 		}
 		
@@ -294,7 +319,7 @@ label {
 		
 		aside, p {
 			color: White;	
-			font-size: 10px;
+			font-size: 1.000em;
 			width: 100%;
 			
 		}
@@ -315,7 +340,7 @@ label {
 			display: inline;
 			padding: 3px;
 			margin: 0 5px 0 0;
-			font-size: 20px;
+			font-size: 1.000em;
 		}
 		
 		.nav ul li {
@@ -381,7 +406,7 @@ label {
 		
 		aside, p {
 			color: White;	
-			font-size: 10px;
+			font-size: 1.000em;
 			width: 100%;
 			clear: both;
 			padding-right: 15px;
@@ -408,7 +433,7 @@ label {
 			display: inline;
 			padding: 3px;
 			margin: 0 5px 0 0;
-			font-size: 20px;
+			font-size: 1.000em;
 		}
 		
 		.nav ul {

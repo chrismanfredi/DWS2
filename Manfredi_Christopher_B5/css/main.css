@@ -1,42 +1,54 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* html and body */
 html, body {
     max-width: 100%;
 	overflow-x: hidden;
 	background-color: black;
 }
 
+/* h4 */
 h4 {
-	color: #93C;	
+	color: #93C;
+	font-family: 'Gochi Hand', cursive;	
 }
 
+/* p */
 p {
 	color: white;	
 }
 
+/* nav buttons */
 a.button {
 	background-color: purple;
 	color: white;
 }
 
+/* nav buttons hover */
 a.button:hover {
 	background-color: grey;	
 }
 
+/* button */
 .button {
 	color: black;	
 }
+
+/* unordered list - list item */
 ul li {
 	text-align: center;	
 }
 
+/* h5 */
 h5 {
 	color: purple;
 	float: left;
 	padding-right: 10%;	
 }
 
+/* table - h5 */
 table, h5 {
 	float: right;
 	clear: right;
@@ -44,6 +56,7 @@ table, h5 {
 	width: 20%;	
 }
 
+/* Form */
 form {
 	width: 45%;	
 	float: left;
@@ -51,14 +64,17 @@ form {
 	margin-bottom: 100px;
 }
 
+/* Label */
 label {
 	color: purple;	
 }
 
+/* Submit */
 .submit {
 	background-color: purple;	
 }
 
+/* Submit Hover */
 .submit:hover {
 	background-color: grey;	
 }
