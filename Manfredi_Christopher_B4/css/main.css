@@ -1,0 +1,458 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	Background-Color: #0E1B46;	
+}
+
+h1 {
+	color: White;
+	text-align: center;	
+}
+
+.nav > ul > li {
+  display: inline;
+  list-style:none;
+  color: #E42715;
+}
+
+a {
+	color: #AEB3B1;	
+}
+
+.table1,th ,td {
+   margin: auto;
+   margin-top: 30px;
+   padding: 5px 25px 0 0;
+   text-align: center;
+   color: #000558;
+   background-color: White;
+   border: 2px solid black;
+  }
+  
+  .table1 {
+		border: 6px solid black;  
+  }
+  
+  /* Left Column */
+
+#leftcol {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	padding: 0 0 0 30px;
+	margin: 15px 10px 0 0;
+}
+
+/* Right Column */
+
+aside {
+	display: block;
+	float: right;
+	width: 15%;
+	padding: 0 15px 0 15px;
+	margin: 20px 30px 0 0;
+	border-radius: 10px;
+}
+
+/* Center Column */
+
+#centercol {
+	overflow: hidden;
+	width: 40%;
+	padding: 10px;
+	margin: 0 0 0 30px;
+}
+
+h2 {
+	text-align: center;	
+	color: white;
+}
+
+h3 {
+	text-align: center;	
+	color: #000;
+}
+
+p {
+	color: #AEB3B1;
+	font-size: 15px;
+}
+
+img#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images #yankeestadium {
+	padding: 0 0 0 300px;
+    width:70%;
+	height: auto;	
+}
+.images #yankees {
+	padding: 40px 0 0 50px;
+    width:30%;
+	height:auto;
+		
+}
+
+.images #yankeeslogo {
+	padding: 40px 0 0 100px;
+    width:30%;
+	height:auto;
+		
+}
+
+.forms {
+	margin: 0 auto; 
+	width:250px;
+}
+
+.forms input {
+	width: 100%;	
+}
+
+label {
+	color: white;	
+	text-align: center;
+}
+
+.submit {
+	width: 70%;
+	margin: 0 0 0 15%;	
+}
+	
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+		h1 {
+			color: White;
+			text-align: center;
+		}
+		
+		p {
+			color: red;	
+		}
+		
+		#leftcol, p {
+			width: 30%;	
+			color: White;
+		}
+		
+		#leftcol p {
+			width: 100%;	
+		}
+		
+		#centercol, p {
+			width: 30%;	
+			color: White;
+		}
+		
+		#centercol p {
+			width: 100%;	
+		}
+		
+		aside, p {
+			width: 30%;
+			color: White;	
+			font-size: 15px;
+		}
+		
+		aside p {
+			width: 100%;
+		}
+		
+		body {
+			background-color: #0E1B46;	
+		}
+		
+		h3 {
+			color: #FF0;
+			text-align: center;	
+			font-weight: bold;
+		}
+		
+		li {
+			text-align: center;	
+			color: red;
+		}
+		
+		.forms input {
+	width: 100%;	
+}
+
+label {
+	color: white;	
+	text-align: center;
+}
+
+.submit {
+	width: 70%;
+	margin: 0 0 0 15%;	
+}
+	
+		
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 1024px) {
+		
+		h1 {
+			color: White;
+			text-align: center;
+		}
+		
+		p {
+			color: White;				
+		}
+		
+		#leftcol, p {
+			width: 30%;	
+			color: White;
+			font-size: 15px;
+			text-align: center;
+		}
+		
+		#centercol, p {
+			width: 30%;	
+			color: White;
+		}
+		
+		aside, p {
+			width: 30%;	
+			color: White;
+		}
+		
+		#bio
+		
+		body {
+			background-color: #0E1B46;	
+			width: 100%;
+		}
+		
+		h2 {
+			color: White;
+			text-align: center;	
+			font-weight: bold;
+		}
+		
+		.nav ul li a {
+			text-align: center;	
+			color: White;
+			display: inline;
+			padding: 0 40px 0 15px;
+		}
+		
+		.forms input {
+	width: 100%;	
+}
+
+label {
+	color: white;	
+	text-align: center;
+}
+
+.submit {
+	width: 70%;
+	margin: 0 0 0 15%;	
+}
+	
+		
+		
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		h1 {
+			color: White;
+			text-align: center;
+		}
+		
+		#logo {
+			padding: 5px 0 0 130px;	
+		}
+		
+		#leftcol, p {
+			width: 100%;	
+			clear: both;
+			color: green;
+		}
+		
+		#centercol, p {
+			width: 100%;	
+			clear: both;
+			color: green;
+			text-align: center;	
+		}
+		
+		aside, p {
+			color: White;	
+			font-size: 10px;
+			width: 100%;
+			
+		}
+		
+		
+		body {
+			background-color: #0E1B46;	
+		}
+		
+		h2 {
+			color: White;
+			text-align: center;	
+			font-weight: bold;
+		}
+		
+		.nav ul li a {
+			color: White;
+			display: inline;
+			padding: 3px;
+			margin: 0 5px 0 0;
+			font-size: 20px;
+		}
+		
+		.nav ul li {
+			padding: 0 0 0 30px;
+		}
+		
+		.images #yankeestadium {
+	padding: 0 0 0 0px;
+    width:70%;
+	height: auto;	
+}
+.images #yankees {
+	padding: 40px 0 0 50px;
+    width:30%;
+	height:auto;
+		
+}
+
+.images #yankeeslogo {
+	padding: 40px 0 0 100px;
+    width:30%;
+	height:auto;
+		
+}
+
+.forms input {
+	width: 100%;	
+}
+
+label {
+	color: white;	
+	text-align: center;
+}
+
+.submit {
+	width: 70%;
+	margin: 0 0 0 15%;	
+}
+	
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+		
+		h1 {
+			color: White;
+			text-align: center;
+		}
+		
+		#leftcol, p {
+			width: 100%;	
+			clear: both;
+			color: White;
+		}
+		
+		#centercol, p {
+			width: 100%;	
+			clear: both;
+			color: White;
+			text-align: center;	
+		}
+		
+		aside, p {
+			color: White;	
+			font-size: 10px;
+			width: 100%;
+			clear: both;
+			padding-right: 15px;
+			
+		}
+		
+		aside {
+			width: 80%;
+			padding-left: 20px;
+		}
+		
+		body {
+			background-color: #0E1B46;	
+		}
+		
+		h2 {
+			color: White;
+			text-align: center;	
+			font-weight: bold;
+		}
+		
+		.nav ul li a {
+			color: White;
+			display: inline;
+			padding: 3px;
+			margin: 0 5px 0 0;
+			font-size: 20px;
+		}
+		
+		.nav ul {
+			padding: 0 0 0 70px;
+		}
+		
+		#logo {
+			padding: 0 30px 0 0;	
+		}
+		
+		p {
+			color: White	
+		}
+		
+.images #yankeestadium {
+	padding: 0 30px 0 250px;
+    width:100%;
+	height: auto;	
+}
+.images #yankees {
+	padding: 40px 0 0 50px;
+    width:50%;
+	height:auto;
+		
+}
+
+.images #yankeeslogo {
+	padding: 40px 0 0 100px;
+    width:50%;
+	height:auto;
+}
+
+.forms input {
+	width: 100%;	
+}
+
+label {
+	color: white;	
+	text-align: center;
+}
+
+.submit {
+	width: 70%;
+	margin: 0 0 0 15%;	
+}
+	
+	}
